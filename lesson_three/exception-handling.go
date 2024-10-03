@@ -1,6 +1,9 @@
 package lesson_three
 
-import "fmt"
+import (
+	"fmt"
+	"errors"
+ )
 
 
 func DefferedOperations (){
@@ -44,3 +47,12 @@ func CausePanic(){
 	fmt.Println("About to cause a panic")
 	panic("Something went wrong")
 }
+
+func ComputationWithErrorHandling( numerator int, denominator int ) (int, error) {
+	defer fmt.Println("Deffered Execution 2, that acts as a cleanup");
+	if denominator == 0 {
+		return 0, errors.New("cannot divide by zero" )
+	}
+	return numerator / denominator, nil
+}
+
