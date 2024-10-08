@@ -29,3 +29,9 @@ func VariadicFunction ( numbers ...int) (sum int ){
 func FirstClassCitizen (a int , b int, operation func(int,int)int) int{
 	return operation(a,b)
 }
+
+func FirstClassCitizenReturningFunction( multiplier int) func ( int, int)int {
+	return func (a int, b int) int {
+		return a*b*multiplier
+	}
+}
