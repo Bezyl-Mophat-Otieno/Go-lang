@@ -1,7 +1,7 @@
 package main
 
 import (
-	"basics/lesson_eight"
+	"basics/lesson_ten"
 )
 
 func main() {
@@ -55,6 +55,15 @@ func main() {
 	// lesson_seven.CopyingSlices()
 	// lesson_eight.MapOperations()
 	// lesson_eight.Processing()
-	lesson_eight.WordCount1()
+	// lesson_eight.WordCount1()
+	// var people = lesson_nine.GenerateDuplicatePeople("Bezyl", 30, "New York")
+
+	// for _, person := range people {
+	// 	fmt.Println(person.Name, person.Age, person.School)
+	// }
+
+	// lesson_nine.StructOperations()
+	// lesson_nine.InterfaceOperations()
+	lesson_ten.PointerOperations()
 	 
 }

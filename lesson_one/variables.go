@@ -38,4 +38,7 @@ func VariablesandConstants(){
 	fmt.Println("int: ", a, "string",b, "float",c, "bool",d)
 	fmt.Println("firstname: ", firstname, "lastname: ", lastname)
 
+
+	const CONNECTION_URL = "https://www.google.com"
+
 }
