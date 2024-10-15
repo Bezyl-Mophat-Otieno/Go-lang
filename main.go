@@ -1,7 +1,7 @@
 package main
 
 import (
-	"basics/lesson_ten"
+	"basics/lesson_11"
 )
 
 func main() {
@@ -64,6 +64,9 @@ func main() {
 
 	// lesson_nine.StructOperations()
 	// lesson_nine.InterfaceOperations()
-	lesson_ten.PointerOperations()
+	// lesson_ten.PointerOperations()
+
+	// lesson_12.Main()
+	lesson_11.TypeAssertionsSwitching()
 	 
 }
